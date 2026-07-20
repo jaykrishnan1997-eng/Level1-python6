@@ -7,13 +7,14 @@
 #   By: jkrishna <jkrishna@student.42.fr>            +#+  +:+       +#+       #
 #                                                  +#+#+#+#+#+   +#+          #
 #   Created: 2026/07/04 10:45:56 by jkrishna            #+#    #+#            #
-#   Updated: 2026/07/04 11:21:56 by jkrishna           ###   ########.fr      #
+#   Updated: 2026/07/20 10:24:02 by jkrishna           ###   ########.fr      #
 #                                                                             #
 # ########################################################################### #
 
 import alchemy
 
 if __name__ == "__main__":
+    print("=== Alembic 4 ===")
     print("Accessing the alchemy module using 'import alchemy'")
     print("Testing create_air: " + alchemy.create_air())
     print("Now show that not all functions can be reached")
