@@ -7,12 +7,12 @@
 #   By: jkrishna <jkrishna@student.42.fr>            +#+  +:+       +#+       #
 #                                                  +#+#+#+#+#+   +#+          #
 #   Created: 2026/07/04 13:42:09 by jkrishna            #+#    #+#            #
-#   Updated: 2026/07/04 14:47:50 by jkrishna           ###   ########.fr      #
+#   Updated: 2026/07/20 10:05:10 by jkrishna           ###   ########.fr      #
 #                                                                             #
 # ########################################################################### #
 
 
-def light_spell_allowed_ingredients() -> list[str] :
+def light_spell_allowed_ingredients() -> list[str]:
     allowed_ingredients: list[str] = ["earth", "air", "fire", "water"]
     return (allowed_ingredients)
 

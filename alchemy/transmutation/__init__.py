@@ -7,8 +7,12 @@
 #   By: jkrishna <jkrishna@student.42.fr>            +#+  +:+       +#+       #
 #                                                  +#+#+#+#+#+   +#+          #
 #   Created: 2026/07/04 13:17:04 by jkrishna            #+#    #+#            #
-#   Updated: 2026/07/04 13:26:20 by jkrishna           ###   ########.fr      #
+#   Updated: 2026/07/20 10:04:04 by jkrishna           ###   ########.fr      #
 #                                                                             #
 # ########################################################################### #
 
 from .recipes import lead_to_gold
+
+__all__ = [
+    "lead_to_gold",
+]

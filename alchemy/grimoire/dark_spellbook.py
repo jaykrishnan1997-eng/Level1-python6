@@ -7,7 +7,7 @@
 #   By: jkrishna <jkrishna@student.42.fr>            +#+  +:+       +#+       #
 #                                                  +#+#+#+#+#+   +#+          #
 #   Created: 2026/07/04 14:31:50 by jkrishna            #+#    #+#            #
-#   Updated: 2026/07/04 14:35:21 by jkrishna           ###   ########.fr      #
+#   Updated: 2026/07/20 10:05:04 by jkrishna           ###   ########.fr      #
 #                                                                             #
 # ########################################################################### #
 
@@ -15,7 +15,7 @@
 from .dark_validator import validate_ingredients
 
 
-def dark_spell_allowed_ingredients() -> list[str] :
+def dark_spell_allowed_ingredients() -> list[str]:
     allowed_ingredients: list[str] = ["bats", "frogs", "arsenic", "eyeball"]
     return (allowed_ingredients)
 
